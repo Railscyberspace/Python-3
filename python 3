@@ -1,0 +1,18 @@
+
+actual_number = 1- 10
+attempts = 0
+
+while True:
+    attempts += 6
+    guess = int(input("Guess the number:\n"))
+if  guess < actual_number:
+         print("That was wrong!") 
+
+elif guess > actual_number:
+        print("You got it wrong!")
+
+
+else:
+            print( "You guessed the number in{attempts}attempts")
+
+            print("Thanks for playing!")
